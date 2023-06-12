@@ -1142,7 +1142,7 @@ footer img {
     display: block;
   }
 
-  
+ 
   /*  producots */
 
   .ProductosContainer {
@@ -1279,5 +1279,36 @@ footer img {
 .infoPreguntas {
   margin-top: 20px;
   padding-bottom: 50px;
+}
+/* home */
+
+.homeCard {
+  
+  width: 320px;
+  height: 221px;
+ 
+}
+
+.marco {
+  width: 320px;
+  height: 221px;
+  
+}
+
+.marco h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.marco p {
+  font-size: 15px;
+  padding: 0 30px;
+  margin-top: 30px;
+}
+
+.marco img {
+  width: 65px;
+  height: 65px;  
 }
 }
