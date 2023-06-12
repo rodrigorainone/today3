@@ -1432,7 +1432,8 @@ footer img {
 .Pagos,
 .Devoluciones,
 .Compras {  
-  padding-top: 0px;    
+  padding-top: 0px;  
+  height: auto;  
 }
 /* home */
 
