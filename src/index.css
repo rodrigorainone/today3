@@ -1362,19 +1362,20 @@ footer img {
 
 
 .navNosotros ul li {
-  margin: 0 12px;
-  padding: 0 12px;
+  margin: 0 10px;
+  padding: 0 10px;
+  font-size: 21px;
   
 }
 
 .navNosotros ul li::marker {
   color: var(--colorPrincipal);
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .firstItem {
   list-style: none;
-  transform: translateY(6px);
+  transform: translateY(3px);
   
 }
 
@@ -1390,22 +1391,22 @@ footer img {
   color: black;
   font-style: var(--textos);
   font-weight: 700;
+  font-size: 21px;
 }
 
 .navHome ul li {
-  margin: 0 12px;
-  padding: 0 12px;
-
+  margin: 0 10px;
+  padding: 0 10px;
 }
 
 .navHome ul li::marker {
   
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .firstItem {
   list-style: none;
-  transform: translateY(6px);
+  transform: translateY(3px);
 }
 
 
