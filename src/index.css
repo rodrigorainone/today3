@@ -144,18 +144,6 @@ body{
   align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-  .heroContent {
-    width: 95%;
-    margin-top: 150px;
-    padding: 20px 0;
-    margin-bottom: 30px;
-  }
-
-  .heroContent p {
-    width: 85%;
-  }
-}
 
 /* Home */
 .homeContent {
@@ -365,32 +353,7 @@ body{
   transform: translateY(8px);
 }
 
-@media screen and (max-width: 600px) {
-  .homeInfoContainer {
-    gap: 60px;
-  }
 
-  .galleryText {
-    margin-top: 0;
-  }
-
-  .galleryText h2 {
-    font-size: 75px;
-  }
-
-  .galleryText p {
-    padding: 50px;
-  }
-
-  .galleyContainer {
-    grid-template-columns: 1fr;
-  }
-
-  .navHome ul {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
 
 /* Nosotros */
 
@@ -494,17 +457,6 @@ body{
   transform: translateY(8px);
 }
 
-@media screen and (max-width: 600px) {
-  .nosotrosInfoContainer {
-    flex-wrap: wrap;
-    gap: 70px;
-  }
-
-  .navNosotros ul {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
 
 /*Contacto */
 .contactoContainer {
@@ -824,6 +776,9 @@ body{
   padding-left: 2%;
   padding-right: 2%;
   margin-bottom: 2px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-weight: 500;
 }
 
 .textoSubInfo {
@@ -886,32 +841,6 @@ body{
   align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-  .imagenSello {
-    top: 220px;
-    left: -35px;
-  }
-
-  .navProductos ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
-
-  .productosView {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  
-
-  .card {
-    width: 95%;
-  }
-}
 
 /* Preguntas Frecuentes */
 
@@ -933,7 +862,7 @@ body{
 }
 
 .inputBuscar {
-  width: 80%;
+  width: 90%;
   height: 40px;
   border-radius: 5px;
   border: none;
@@ -955,7 +884,7 @@ body{
   justify-content: space-between;
   padding-left: 1%;
   padding-right: 1%;
-  height: 40px;
+  height: 70px;
   align-items: center;
 }
 
@@ -1060,6 +989,85 @@ footer img {
 
 .menu {
   display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .heroContent {
+    width: 95%;
+    margin-top: 150px;
+    padding: 20px 0;
+    margin-bottom: 30px;
+  }
+
+  .heroContent p {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imagenSello {
+    top: 220px;
+    left: -35px;
+  }
+
+  .navProductos ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .productosView {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  
+
+  .card {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nosotrosInfoContainer {
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+
+  .navNosotros ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .homeInfoContainer {
+    gap: 60px;
+  }
+
+  .galleryText {
+    margin-top: 0;
+  }
+
+  .galleryText h2 {
+    font-size: 75px;
+  }
+
+  .galleryText p {
+    padding: 50px;
+  }
+
+  .galleyContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .navHome ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 
