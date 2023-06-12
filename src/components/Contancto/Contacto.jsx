@@ -20,7 +20,7 @@ const Contacto = () => {
                 <div className='infoTopContacto'>
                     <p className='tituloInfoTopContacto'>Contáctenos</p>
                     <div className='redesInfoTopContacto'>
-                        <p><i className="fa-brands fa-whatsapp whatsapp"></i> 2613340137</p>
+                        <p><i className="fa-brands fa-whatsapp whatsapp3"></i> 2613340137</p>
                         <p><i className="fa-brands fa-instagram instagram"></i> todayhechocomoencasa</p>                     
                         <p><i className="fa-brands fa-facebook-f facebook"></i> Today .Hecho como en Casa</p>
                         <p><i className="fa-solid fa-location-dot location"></i> Mendoza - Argentina</p>

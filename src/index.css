@@ -553,8 +553,8 @@ body{
   border-radius: 50px;
   border: 6px solid #2789E3;
   font-size: 11px;
-  width: 25px;
-  padding-left: 3px;
+  width: 23px;
+  padding-left: 2px;
   margin-right: 15px;
 }
 
@@ -580,12 +580,23 @@ body{
   margin-right: 15px;
 }
 
+.whatsapp3{
+  color: white;
+  background-color: #0DBA52;
+  border-radius: 50px;
+  border: 6px solid #0DBA52;
+  padding-left: 1px;
+  font-size: 13px;
+  width: 25px;
+  margin-right: 15px;
+}
+
 .location {
   color: white;
   background-color: #FE3E3E;
   border-radius: 50px;
   border: 6px solid #FE3E3E;
-  padding-left: 2px;
+  padding-left: 1px;
   font-size: 13px;
   width: 25px;
   margin-right: 15px;
@@ -781,7 +792,7 @@ background-color: #B14116;
 
 
 .card-title {
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 65px;
   text-align: center;
 }
@@ -1394,6 +1405,10 @@ footer img {
   font-size: 18px;
 }
 
+.contactoContainer{
+  padding-top: 30px;
+}
+
 /* preguntas preguntes*/
 .inputBuscar::placeholder { font-size: 13px; }
 
@@ -1411,6 +1426,13 @@ footer img {
 .infoPreguntas {
   margin-top: 20px;
   padding-bottom: 50px;
+}
+
+.Envios,
+.Pagos,
+.Devoluciones,
+.Compras {  
+  padding-top: 0px;    
 }
 /* home */
 
@@ -1457,6 +1479,13 @@ footer img {
   
 }
 
+.heroContent{
+   margin-top: 0px;   
+}
+.heroContainer{
+  min-height: 0vh;
+  margin-top: 30px;
+}
 .heroContent .heroTitle {
   
   font-size: 72px;  
