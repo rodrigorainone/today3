@@ -1364,7 +1364,7 @@ footer img {
 .navNosotros ul li {
   margin: 0 10px;
   padding: 0 10px;
-  font-size: 21px;
+  font-size: 18px;
   
 }
 
@@ -1375,7 +1375,7 @@ footer img {
 
 .firstItem {
   list-style: none;
-  transform: translateY(3px);
+  transform: translateY(0px);
   
 }
 
@@ -1391,7 +1391,7 @@ footer img {
   color: black;
   font-style: var(--textos);
   font-weight: 700;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .navHome ul li {
@@ -1404,9 +1404,9 @@ footer img {
   font-size: 1.5rem;
 }
 
-.firstItem {
+.firstItem2 {
   list-style: none;
-  transform: translateY(3px);
+  transform: translateY(4px);
 }
 
 

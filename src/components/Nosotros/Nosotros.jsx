@@ -44,7 +44,7 @@ function Nosotros() {
           </div>
           <div className='navNosotros'>
             <ul>
-              <li className='firstItem'><Link to='/nosotros'>Nosotros</Link></li>
+              <li className='firstItem2'><Link to='/nosotros'>Nosotros</Link></li>
               <li> <Link to='/productos'> Productos</Link></li>
               <li><Link to='/contact'>Contacto</Link></li>
               <li className='lastMobile'><Link to='/FAQ'>Preguntas frecuentes</Link></li>
