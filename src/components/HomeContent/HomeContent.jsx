@@ -34,7 +34,7 @@ function HomeContent() {
           </div>
           <div className='homeInfoItem'>
             <h2>¡Hace tu pedido ahora!</h2>
-            <button><img src={wp} />0261 334-0137</button>
+            <button><img src={wp} /><p>0261 334-0137</p></button>
           </div>
         </section>
         <section className='homeGallery'>
@@ -67,7 +67,7 @@ function HomeContent() {
               <li className='firstItem'><Link to='/nosotros'>Nosotros</Link></li>
               <li> <Link to='/productos'> Productos</Link></li>
               <li><Link to='/contact'>Contacto</Link></li>
-              <li><Link to='/FAQ'>Preguntas frecuentes</Link></li>
+              <li li className='lastMobile'><Link to='/FAQ'>Preguntas frecuentes</Link></li>
             </ul>
           </div>
         </section>

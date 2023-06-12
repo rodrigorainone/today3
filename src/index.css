@@ -103,8 +103,7 @@ body{
   border: 2px solid var(--complementario);
   display: flex;
   flex-direction: column;
-  text-align: center;
-  margin-top: 100px;
+  text-align: center;  
   width: 82%;
   justify-content: center;
   align-items: center;
@@ -239,12 +238,17 @@ body{
   height: 80px;
   cursor: pointer;
   position: relative;
-  font-size: 1.1rem;
+  font-size: 1.1rem;  
+ 
 }
 
 .homeInfoItem button img {
   position: absolute;
   left: 25px;
+}
+
+.homeInfoItem button p {
+  margin-left: 22%;
 }
 
 .homeGallery {
@@ -535,6 +539,7 @@ body{
   display: flex;
   flex-direction: column;
   gap: 10px;
+  font-size: 20px;
 }
 
 .facebook {
@@ -653,6 +658,13 @@ body{
   font-size: 32px;
   margin-left: 100px;
   margin-right: 30px;
+}
+
+.redesInfoTopContacto{
+  font-family: var(--textos);
+}
+.formulario{
+  font-family: var(--textos);
 }
 
 /* Productos*/
@@ -905,17 +917,19 @@ body{
 
 .FAQ {  
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 95vh;
+  justify-content: center;  
+  height:auto;
+  margin-bottom: 200px;
 }
 
 .preguntasContainer {
   background-color: #353230;
   color: white;
   border-radius: 15px;
-  width: 90%;
+  width: 90%;  
   margin-top: 150px;
+  height: 85%;
+  
 }
 
 .inputBuscar {
@@ -1078,6 +1092,8 @@ footer img {
   .menu {
     display: block;
     z-index: 1;
+    margin-right: 5%;
+    margin-left: 7%;
   }
 
   .navbar ul {
@@ -1104,6 +1120,7 @@ footer img {
   .navbarUl li {
     border-top: 1px solid silver;
     z-index: 150;
+    
   }
 
   .navbarUl li:hover {
@@ -1114,12 +1131,12 @@ footer img {
   }
 
   .navbarUl li:hover a {
-    color: white;
+    color: black;
   }
 
   .navbarUl li a {
     text-decoration: none;
-    color: black;
+    color: var(--complementario);
     font-size: 20px;
   }
 
@@ -1129,14 +1146,9 @@ footer img {
 
   .active {
     color: var(--colorPrincipal) !important;
-  }
+  } 
 
- 
-
-  .navbarScrolled {
-    background-color: #84BCDA;
-    transition: 0s;
-  }
+  
 
   .tituloMobile {
     display: block;
@@ -1269,10 +1281,23 @@ footer img {
   
 }
 
+.redesInfoTopContacto {
+  
+  
+  font-size: 18px;
+}
+
 /* preguntas preguntes*/
 .inputBuscar::placeholder { font-size: 13px; }
 
-.preguntasContainer{  margin-top: 20px;
+.preguntasContainer{  
+  margin-top: 20px;
+  height:auto;
+}
+
+.FAQ {  
+   
+  height:auto;
   
 }
 
@@ -1311,4 +1336,77 @@ footer img {
   width: 65px;
   height: 65px;  
 }
+
+.nosotrosCard {
+ 
+  width: 320px;
+  height: 320px;
+ 
+}
+
+.nosotrosMarco {
+  width: 320px;
+  height: 320px;
+  
+}
+
+.heroContent .heroTitle {
+  
+  font-size: 72px;
+  
+  line-height: 100px;
+  
+}
+
+
+
+
+.navNosotros ul li {
+  margin: 0 12px;
+  padding: 0 12px;
+  
+}
+
+.navNosotros ul li::marker {
+  color: var(--colorPrincipal);
+  font-size: 1.8rem;
+}
+
+.firstItem {
+  list-style: none;
+  transform: translateY(6px);
+  
+}
+
+.lastMobile{
+  list-style: none;
+  transform: translateY(8px);
+}
+
+
+
+.navHome ul a {
+  text-decoration: none;
+  color: black;
+  font-style: var(--textos);
+  font-weight: 700;
+}
+
+.navHome ul li {
+  margin: 0 12px;
+  padding: 0 12px;
+
+}
+
+.navHome ul li::marker {
+  
+  font-size: 1.8rem;
+}
+
+.firstItem {
+  list-style: none;
+  transform: translateY(6px);
+}
+
+
 }
