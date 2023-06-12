@@ -47,16 +47,18 @@ body{
 .navbar {
   background-color: transparent;
   height: 100px;
-  width: 100%;
+  width: 82%; 
   color: var(--complementario);
   display: flex;
   justify-content: space-between;
   align-items: center;  
   z-index: 3;
+  margin-left: 9%;
+  margin-top: 30px;
 }
 
 .navbar img {
-  margin: 20px 0 20px 30px;
+  margin: 10px 0px 20px 0px;
   height: 87px;
   width: 150px;
 }
@@ -65,9 +67,9 @@ body{
   list-style: none;
   display: flex;
   gap: 60px;
-  font-size: 1.5rem;
-  margin-right: 130px;
-  padding-left: 40px;
+  font-size: 1.5rem;  
+  padding-left: 40px;  
+  
 }
 
 .navbar a {
@@ -142,6 +144,7 @@ body{
   height: 40px;
   display: flex;
   align-items: center;
+  font-weight: 500;
 }
 
 
@@ -187,8 +190,9 @@ body{
 
 .marco p {
   font-size: 18px;
-  padding: 0 20px;
+  padding: 0 30px;
   margin-top: 30px;
+  font-weight: 500;
 }
 
 .marco img {
@@ -311,11 +315,12 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 50px;
+  gap: 50px;  
 }
 
 .seguinos p {
   font-size: 24px;
+  font-family: var(--textos);
 }
 
 .redes {
@@ -325,7 +330,7 @@ body{
 
 .navHome ul {
   display: flex;
-  font-size: 24px;
+  font-size: 22px;
   font-style: var(--textos);
   padding-bottom: 50px;  
 }
@@ -335,6 +340,7 @@ body{
   color: black;
   font-style: var(--textos);
   font-weight: 700;
+  font-family: var(--textos);
 }
 
 .navHome ul li {
@@ -358,7 +364,7 @@ body{
 /* Nosotros */
 
 .nosotrosContainer {
-  background-image: url('./assets/imgs/fondoHome2.jpg');
+  background-image: url('./assets/imgs/fondoHome2.jpg');  
   padding-top: 80px;
   background-color: white;
 }
@@ -401,6 +407,7 @@ body{
   padding: 0 20px;
   margin-top: 30px;
   color: var(--colorPrincipal);
+  font-weight: 500;
 }
 
 .nosotrosMarco img {
@@ -430,7 +437,7 @@ body{
 
 .navNosotros ul {
   display: flex;
-  font-size: 24px;
+  font-size: 22px;
   font-style: var(--textos);
   padding-bottom: 50px;
   font-weight: 700;
@@ -440,6 +447,7 @@ body{
   text-decoration: none;
   color: black;
   font-style: var(--textos);
+  font-family: var(--textos);
 }
 
 .navNosotros ul li {
@@ -470,7 +478,7 @@ body{
   background-color: #353230;
   color: white;
   border-radius: 15px;
-  width: 98%;
+  width: 82%;
 }
 
 .infoTopContacto {
@@ -519,10 +527,10 @@ body{
   color: white;
   background-color: #0DBA52;
   border-radius: 50px;
-  border: 6px solid #0DBA52;
-  padding-left: 1px;
-  font-size: 13px;
-  width: 25px;
+  border: 5px solid #0DBA52;
+  padding-left: 0px;
+  font-size: 20px;
+  width: 30px;
   margin-right: 15px;
 }
 
@@ -683,8 +691,8 @@ body{
   display: flex;
   flex-direction: column;
   width: 45%;
-  height: 780px;
-  overflow: hidden;
+  height: 620px;
+  overflow: hidden; 
 }
 
 .card2{
@@ -693,7 +701,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 45%;
-  height: 650px;
+  height: 600px;
   overflow: hidden;
 }
 
@@ -726,10 +734,11 @@ body{
 
 .cardInfo p {
   text-align: center;
-  margin-top: 55px;
+  margin-top: 35px;
   font-size: 22px;
-  width: 70%;
+  width: 75%;
   height: 30%;
+  font-weight: 500;
 }
 
 .boton {
@@ -740,11 +749,21 @@ body{
   height: 45px;
   border-radius: 10px;
   border: none;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
   margin-bottom: 30px;
   font-size: 22px;  
+  box-shadow: 5px 5px 5px black;
 
+}
+
+.boton:hover{
+  background-color: #B14116;
+}
+
+.boton:active{ 
+    background-color: #B14116;  
+    opacity: 50%;
 }
 
 .boton2 {
@@ -755,13 +774,22 @@ body{
   height: 45px;
   border-radius: 10px;
   border: none;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
   margin-bottom: 30px;
   font-size: 22px;
+  box-shadow: 5px 5px 5px black;
   
 }
 
+.boton2:hover{
+  background-color: #B14116;
+}
+
+.boton2:active{
+  background-color: #B14116;  
+  opacity: 50%;
+}
 .subInfo {
   display: flex;
   justify-content: space-between;
@@ -855,7 +883,7 @@ body{
   background-color: #353230;
   color: white;
   border-radius: 15px;
-  width: 90%;  
+  width: 82%; 
   margin-top: 150px;
   height: 85%;
   
@@ -910,6 +938,7 @@ body{
   border-radius: 10px;
   font-size: 18px;
   align-self: flex-end;
+  font-weight:500;
 }
 
 .fa-chevron-right {
@@ -1286,6 +1315,7 @@ footer img {
   width: 90px;
   font-size: 18px;
   margin-top: 30px;
+  font-weight: 500;
   
 }
 
