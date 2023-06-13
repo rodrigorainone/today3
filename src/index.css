@@ -153,6 +153,7 @@ body{
   font-weight: 500;
   padding-top: 25px;
   padding-bottom: 25px;
+  font-size: 18px;
 }
 
 .heroContainer a:hover{
@@ -168,7 +169,7 @@ body{
 
 /* Home */
 .homeContent {
-  background-image: url('./assets/imgs/fondoHome2.jpg');
+  background-image: url('./assets/imgs/fondoHome4.png');
   padding-top: 80px;
   background-color: var(--complementario)
 }
@@ -410,7 +411,7 @@ body{
 /* Nosotros */
 
 .nosotrosContainer {
-  background-image: url('./assets/imgs/fondoHome2.jpg');  
+  background-image: url('./assets/imgs/fondoHome4.png');  
   padding-top: 80px;
   background-color: white;
 }

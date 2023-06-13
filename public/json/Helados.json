@@ -18,7 +18,7 @@
         ]
     },
     {
-        "nombre":"Postres Individuales",
+        "nombre":"Postres individuales",
         "img":"PostresIndividuales",
         "Sub":[{"nombre":"Tricolor","descripcion":"Por 20 unidades"},
         {"nombre":"Almendrado","descripcion":"Por 20 unidades"},
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "nombre":"Sabores Línea Artesanal(Baldes 10 lts)",
+        "nombre":"Sabores línea artesanal(Baldes 10 lts)",
         "img":"SaboresLineaArtesanal",
         "Sub":[{"nombre":"Artesanal Today","descripcion":"Coco - Vainilla - Naranja - Pistacho - Americana - Crema del cielo - Manzana verde"},
         {"nombre":"Especial Today","descripcion":"Flan - Limón - Durazno - Maracuyá - Granizado - Ananá - Dulce de leche Limón gancia - Frutilla al agua - Frutilla a la crema - Banana"},  

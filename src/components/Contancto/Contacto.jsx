@@ -27,7 +27,7 @@ const Contacto = () => {
                     </div>
                 </div>
                 <div className='contactoFormContainer'>
-                    <p>Por Favor Complete el formulario para dejar su consulta o comentario</p>
+                    <p>Por favor complete el formulario para dejar su consulta o comentario</p>
                     <form className='formulario' onSubmit={handleSubmit}>
                         <div className='contenedorDatos'>   
                             <div className='contenedorDatos1'>
