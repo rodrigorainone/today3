@@ -15,7 +15,7 @@ const Item = ({data}) => {
                     <div className="cardInfo">
                         <h5 className="card-title">{data.nombre}</h5>   
                         {data.texto && <p>{data.texto}</p>}                 
-                        <Link  to={"https://api.whatsapp.com/send?phone=02613340137"}><button className={buttonClass}><i className="fa-brands fa-whatsapp whatsapp"></i> Hacé tu pedido</button></Link>
+                        <Link  to={"https://api.whatsapp.com/send?phone=2613340137"}><button className={buttonClass}><i className="fa-brands fa-whatsapp whatsapp"></i> Hacé tu pedido</button></Link>
                     </div>
                </div>   
         

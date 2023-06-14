@@ -34,7 +34,7 @@ function HomeContent() {
           </div>
           <div className='homeInfoItem'>
             <h2>¡Hace tu pedido ahora!</h2>
-            <Link to={"https://api.whatsapp.com/send?phone=02613340137"}><button><img src={wp} /><p>0261 334-0137</p></button></Link>
+            <Link to={"https://api.whatsapp.com/send?phone=2613340137"}><button><img src={wp} /><p>0261 334-0137</p></button></Link>
           </div>
         </section>
         <section className='homeGallery'>
