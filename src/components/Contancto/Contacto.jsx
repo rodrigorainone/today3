@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Contacto = () => {
 
      const datosFormulario = React.useRef();
+     let navigate = useNavigate()
      
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -22,8 +23,12 @@ const Contacto = () => {
 		${cliente.email}%0A
 		*Indica Tu Consulta :*%0A
 		${cliente.comentarios}%0A `     
+        
 
         window.open(url);
+        e.target.reset()
+        navigate('/')
+
       };
 
     return (
