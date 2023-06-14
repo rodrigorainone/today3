@@ -34,7 +34,7 @@ function HomeContent() {
           </div>
           <div className='homeInfoItem'>
             <h2>¡Hace tu pedido ahora!</h2>
-            <button><img src={wp} /><p>0261 334-0137</p></button>
+            <Link to={"https://api.whatsapp.com/send?phone=02613340137"}><button><img src={wp} /><p>0261 334-0137</p></button></Link>
           </div>
         </section>
         <section className='homeGallery'>
@@ -51,7 +51,7 @@ function HomeContent() {
             <img src={gallery6} alt='gallery' />
           </div>
           <div className='galleryButton'>
-            <Link>Ver todos los productos</Link>
+            <Link to={'/productos'}>Ver todos los productos</Link>
           </div>
         </section>
         <section className='homeRedes'>
@@ -59,8 +59,8 @@ function HomeContent() {
             <p>Seguinos en nuestras redes</p>
           </div>
           <div className='redes'>
-            <Link to='facebook'><img src={facebook} alt='redes' /></Link>
-            <Link to='instagram'><img src={instagram} alt='redes' /></Link>
+            <Link to='https://www.facebook.com/todayhechocomoencasa'><img src={facebook} alt='redes' /></Link>
+            <Link to='https://instagram.com/todayproductoscongelados?igshid=YmM0MjE2YWMzOA=='><img src={instagram} alt='redes' /></Link>
           </div>
           <div className='navHome'>
             <ul>

@@ -406,6 +406,10 @@ body{
   transform: translateY(8px);
 }
 
+.homeInfoItem a{
+  text-decoration:none;
+
+}
 
 
 /* Nosotros */
