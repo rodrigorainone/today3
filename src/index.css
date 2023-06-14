@@ -93,7 +93,7 @@ body{
 
 /* Hero */
 .heroContainer {
-  min-height: 95vh;
+  min-height: 94vh;
   width: 100%;  
   background-size: cover;
   display: flex;
@@ -779,7 +779,7 @@ background-color: #B14116;
 .card-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit:cover;
 }
 
 .cardInfo {
@@ -942,7 +942,7 @@ background-color: #B14116;
   display: flex;
   justify-content: center;  
   height:auto;
-  margin-bottom: 200px;
+  margin-bottom: 120px;
 }
 
 .preguntasContainer {
@@ -1097,6 +1097,226 @@ footer img {
   display: none;
 }
 
+
+@media (min-width: 850px) and (max-width:1270px) {
+
+
+  .galleyContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .nosotrosInfoContainer {
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+
+
+  
+  .card2{
+    width: 48%;
+  }
+
+  .productosView {
+   
+    gap: 10px;   
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .card-title {
+    
+    font-size: 50px;
+   
+  }
+
+  .cardInfo p {
+    font-size: 20px;
+  }
+  footer {
+    
+    font-size: 20px;
+  }
+  .navProductos ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .navbarUl {
+    flex-wrap: wrap;    
+  }
+  .navbar ul {
+    margin-left: 50px;
+    gap: 20px;
+    font-size: 1.5rem;
+    
+  }
+
+  .navbar{
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 850px) {
+
+
+  .heroContainer {
+    min-height: 90vh;
+   }
+  .navbarUl {
+    flex-wrap: wrap;    
+  }
+  .navbar ul {
+    margin-left: 50px;
+    gap: 10px;
+    font-size: 1.5rem;
+    
+  }
+
+  .navbar{
+    margin-bottom: 30px;
+  }
+
+  /* preguntas */
+  .preguntasContainer{      
+    height:auto;
+  }
+
+  .Envios,
+  .Pagos,
+  .Devoluciones,
+  .Compras  {  
+    padding-top: 0px;  
+    height: auto;  
+  } 
+
+  /* home y nosotros*/
+   .heroContent {
+    width: 95%;
+    margin-top: 0px;
+    padding: 20px 0;
+    margin-bottom: 30px;
+  }
+
+  .heroContent p {
+    width: 85%;
+  }
+
+  .imagenSello {
+    top: 220px;
+    left: -35px;
+  }
+
+  .navProductos ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .productosView {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+
+  .card {
+    width: 95%;
+  }
+  .card2{
+    width: 95%;
+  }
+  .nosotrosInfoContainer {
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+
+  .navNosotros ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .homeInfoContainer {
+    gap: 60px;
+  }
+
+  .galleryText {
+    margin-top: 0;
+  }
+
+  .galleryText h2 {
+    font-size: 75px;
+  }
+
+  .galleryText p {
+    padding: 50px;
+  }
+
+  .galleyContainer {
+    grid-template-columns: 0.8fr;
+  }
+
+  .navHome ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tituloInfoTopContacto{
+    margin-left: 15px;
+    font-size: 25px;
+  }
+  .contactoFormContainer p {
+    margin-left: 15px;
+    font-size: 25px;
+  }
+  .redesInfoTopContacto{
+    font-size: 15px;
+  }
+  .contenedorDatos{
+    font-size: 14px;
+  }
+
+   /* footer  */
+   footer{
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction:column-reverse;
+    gap: 35px;
+    font-size: 20px;
+    min-height: 300px;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .homeInfoContainer {
+    gap: 60px;
+  }
+
+  .galleryText {
+    margin-top: 0;
+  }
+
+  .galleryText h2 {
+    font-size: 75px;
+  }
+
+  .galleryText p {
+    padding: 50px;
+  }
+
+  .galleyContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .navHome ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .heroContent {
     width: 95%;
@@ -1129,12 +1349,12 @@ footer img {
     padding-left: 5px;
     padding-right: 5px;
   }
-
   
 
   .card {
     width: 95%;
   }
+
 }
 
 @media screen and (max-width: 600px) {
