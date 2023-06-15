@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import logo from '../../assets/imgs/logo.png'
 import { NavLink } from 'react-router-dom'
-function Navbar() {
-  const [navbarStyle, setNavbarStyle] = useState('navbar');
+function Navbar() {  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -12,11 +11,8 @@ function Navbar() {
     // si hace scroll cambia el estilo del navbar
     const handleScroll = () => {
       if (window.scrollY > 0) {        
-        setNavbarStyle('navbar navbarScrolled')
         setIsMenuOpen(false);
-      } else {
-        setNavbarStyle('navbar')
-      }
+      } 
     }
 
     // agremos el evento scroll a window
@@ -30,7 +26,7 @@ function Navbar() {
 
   return (
     <header>
-      <nav className={navbarStyle}>
+      <nav className='navbar'>
         <NavLink to='/'>
           <img className="Arcoiris" src={logo} alt="Arcoiris con la palabra today dentro" />
         </NavLink>
