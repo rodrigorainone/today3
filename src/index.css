@@ -1202,7 +1202,7 @@ footer img {
   }
 
   .heroContent p {
-    width: 85%;
+    width: 85%;    
   }
 
   .imagenSello {
@@ -1331,6 +1331,7 @@ footer img {
 
   .heroContent p {
     width: 85%;
+    font-size: 20px;
   }
 }
 
@@ -1714,8 +1715,9 @@ footer img {
 }
 .heroContent .heroTitle {
   
-  font-size: 72px;  
+  font-size: 50px;  
   line-height: 100px;
+  line-height: 60px;
   
 }
 
